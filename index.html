@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <meta http-equiv="refresh" content="5">
+  <meta http-equiv="refresh" content="30">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>HTML</title>
   <!-- Custom url for this website  https://spyingcoder.github.io/Test-Web-Dev/-->
@@ -18,12 +18,99 @@
       <br>
       <em>how are you <br></p>
       <hr>
-  <a href="https://google.com">Google</a><br>
+  <a href="https://google.com" target="_blank">Google</a><br>
   <a href="https://facebook.com">Facebook</a><br>
   <a href="https://twitter.com">Twitter</a><br>
+  <a href="/Ashu.txt">What is my name?</a>
+  <hr>
+  <img src="https://source.unsplash.com/random"alt="Error Loading Image!"width="310" height="310">  
+  <img src="https://source.unsplash.com/random"alt="Error Loading Image!"width="310" height="310">
+  <img src="https://source.unsplash.com/random"alt="Error Loading Image!"width="310" height="310"><br>
+  <!--alternate of image-->
+   <img src="ashu.jpeg"alt="Error Loading Image!"width="310" height="310">
+   <img src="ashu.jpeg"alt="Error Loading Image!"width="310" height="310">
+   <img src="ashu.jpeg"alt="Error Loading Image!"width="310" height="310"><br>
+  <hr>
+  <h1>Ordered List</h1>
+  <ol type="1">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li></ol>
+  <h1>Unordered List</h1>
+  <ul type="square">
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li></ul>
+  <hr>
+  <h2>HTML Table</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>SNo.</th>
+        <th>Name</th>
+        <th>ID</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ashu</td>
+        <td>008</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mukesh</td>
+        <td>007</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h2>This is HTML forms tutorial</h2>
+    <form action="backend.php">
+        <div>
+        <label for="name">Name: </label>
+        <input type="text" name="myName" id="name">
+        </div><br>
+        <div>
+          <label for="role">Role: </label>
+          <input type="text" name="myRole" id="role">
+        </div><br>
+        <div>
+          <label for="email">Email: </label>
+          <input type="email"name="myEmail"id="email">
+        </div><br>
+        <div>
+          <label for="salary">Salary: </label>
+          <input type="number"name="mySalary"id="salary">
+        </div><br>
+        <div>
+          Are you eligible?  <input type="checkbox"name="myEligibility" checked>
+        </div><br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"checked> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div><br>
+        <div>
+            Write about yourself:<br><textarea name="myText" cols="50" rows="10"></textarea>
+        </div><br>
+        <div>
+            <label for="car">Car</label>
+            <select name="myCar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf" selected>Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+    <br>
+    <hr>
+  
   <!-- Project -->
 
   <script src="main.js"></script>
 </body>
-
 </html>
