@@ -4,6 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Css Float And Clear</title>
+    <style>
+    * {
+            box-sizing: border-box;
+        }
+      .container{
+        width: 900px;
+        border: 3px solid purple;
+        background-color: burlywood;
+        margin: 33px auto;
+      }
+      .item{
+        border: 3px solid blue;
+        margin: 12px 3px;
+        padding: 12px 3px;
+        background: greenyellow;
+      }
+      #fruit{
+        float: right;
+        width: 48%;
+      }
+      #computer{
+        float: left;
+        width: 48%;
+      }
+      #stationary{
+       clear: both;
+       clear: left;
+       width: 100%;
+       }
+               p, h3 {
+            /* text-align: right;
+            text-align: left;
+            text-align: center; */
+            text-align: justify;
+        }
+
+        h1 {
+            margin: 23px auto;
+            width: 455px;
+        }
+    </style>
 </head>
 <body>
  <div class="container">
@@ -26,15 +67,16 @@
     <h2>Stationary</h2>
     <p id="stationaryPara" class="para">
       simple paragraph design mint like anything this is just for use even make sense that I am using this paragraph it is just for testing this paragraph and making a web developer
-      paragraph design mint like anything this is just for use even make sense that I am using this paragraph it is just for testing this paragraph and making a web developer
+      paragraph design mint like anything
     </p>
-  </div>
+</div>
   <div id="glasses" class="item">
     <h2>Glasses</h2>
     <p id="glassesPara" class="para">
       simple paragraph design mint like anything this is just for use even make sense that I am using this paragraph it is just for testing this paragraph and making a web developer
-      paragraph design mint like anything this is just for use even make sense that I am using this paragraph it is just for testing this paragraph and making a web developer
+      paragraph design mint like anything
     </p>
   </div>
+ </div>
 </body>
 </html>
