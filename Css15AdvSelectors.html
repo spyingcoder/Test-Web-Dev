@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Css AdvSelectors</title>
+    <style>
+      .container{
+        width: 100%;
+        background-color: skyblue;
+        margin: auto;
+        text-align: center;
+      }
+      input[type='text']{
+        background-color: blue;
+      }
+      /*
+      li:nth-child(even){
+        background-color: red;
+      }*/
+      li:nth-child(2n+0){
+        background-color: red;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav id="navigation">
+        <ul type="none">
+          <li class="list" id="1">Home</li>
+          <li class="list" id="2">Facilites</li>
+          <li class="list" id="3">Careers</li>
+          <li class="list" id="4">Help</li>
+          <li class="list" id="5">About Us</li>
+        </ul>
+      </nav>
+    </header>
+    <form action="" class="form-work">
+      <input type="text" name="" id="txt" placeholder="Name" value="" /><br>
+      <input type="password" id="pass" placeholder="Password">
+    </form>
+  </div>
+</body>
+</html>
