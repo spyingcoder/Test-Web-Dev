@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Css Media Query</title>
     <style>
-      
+    *{
+      padding: 0px;
+      margin: 0px;
+      background-color: dodgerblue;
+      /*display: none;*/
+      }
+    @media (max-width: 800px){
+      display: block;
+    }
+      .container{
+        border: 2px solid red;
+        padding: 25px;
+        margin: 25px;
+      }
+      .container, h1, p{
+        background-color: skyblue;
+      }
     </style>
 </head>
 <body>
-  
+  <div class="container">
+    <h1>Heading</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque reiciendis fugit, ea similique harum totam aspernatur id ex explicabo tempore esse quasi a reprehenderit molestiae voluptatum laboriosam praesentium nemo enim officia. Soluta.</p>
+  </div>
 </body>
 </html>
