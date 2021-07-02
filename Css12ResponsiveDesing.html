@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CssResponsiveDesing</title>
+    <style>
+    html{
+      font-size: 7px;
+      background-color: black;
+    }
+      h1{
+        text-align: center;
+        font-size: 10px;
+      }
+      .container{
+        font-size: 10px;
+        background-color: red;
+        height: 50vh;
+        width: 100vw;
+      }
+      #first{
+        font-size: 7em;/*Depends on parent element, i.e., h1*/
+        background-color: green;
+      }
+      #second{
+        font-size: 10rem;/*Depends on root element, i.e., html*/
+        background-color: yellow;
+      }
+    </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="first">Heading1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque reiciendis fugit, ea similique harum totam aspernatur id ex explicabo tempore esse quasi a reprehenderit molestiae voluptatum laboriosam praesentium nemo enim officia. Soluta.</p>
+  </div>
+  <div class="container">
+    <h1 id="second">Heading2</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque reiciendis fugit, ea similique harum totam aspernatur id ex explicabo tempore esse quasi a reprehenderit molestiae voluptatum laboriosam praesentium nemo enim officia. Soluta.</p>
+  </div>
+</body>
+</html>
